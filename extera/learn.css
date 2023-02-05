@@ -1,0 +1,48 @@
+div.learn {
+	width: 80%;
+	margin: auto;
+	margin-top: 45px;
+	margin-bottom: 70px;
+	overflow: hidden;
+}
+div.learn > div.header {
+	display: flex;
+	padding-bottom: 20px;
+}
+div.learn > div.header > div.title {
+	flex: 50%;
+	font-family: ByekanWeb;
+	font-weight: bolder;
+	font-size: 16px;
+}
+div.learn > div.header > div.more-info {
+	flex: 50%;
+	text-align: left;
+	color: #44cbdb;
+}
+div.learn > div.header > div.more-info > a {
+	color: #44cbdb;
+	font-family: ByekanWeb;
+	font-weight: bolder;
+	text-decoration: none;
+	font-size: 12px;
+}
+div.learn > div.contents {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+}
+div.learn > div.contents > div.content {
+	border: 0.5px solid lightgray;
+	border-radius: 10px;
+	margin: 0px 5px 0px 5px;
+	overflow: hidden;
+	width: auto;
+}
+div.learn > div.contents > div.content > img {
+	width: 100%;
+}
+div.learn > div.contents > div.content > p {
+	font-family: ByekanWeb;
+    padding: 15px;
+    color: #2b2b2b;
+}

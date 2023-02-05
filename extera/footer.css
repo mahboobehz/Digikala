@@ -1,0 +1,219 @@
+footer {
+	width: 100%;
+	border-top: 0.5px solid rgb(237, 237, 237);
+	margin: 35px 20px 0px 35px;
+	padding: 35px 20px 0px 35px;
+}
+footer > div.footer-1 {
+	display: flex;
+}
+footer > div.footer-1 > div.pic-digi {
+	flex: 50%;
+}
+footer > div.footer-1 > div.btn-up {
+	flex: 50%;
+	text-align: left;
+}
+footer > div.footer-1 > div.btn-up > a {
+	border: 1px solid lightgrey;
+	text-decoration: none;
+	font-family: ByekanWeb;
+	color: #9e9fb1;
+	font-size: 14px;
+	font-weight: bolder;
+	border-radius: 10px;
+	padding: 10px 20px 10px 20px;
+}
+footer > div.footer-2 > p {
+	font-family: ByekanWeb;
+	color: #2b2b2b;
+	font-size: 14px;
+	margin-top: 15px;
+}
+
+footer > div.footer-3 {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto;
+	text-align: center;
+	margin-top: 60px;
+}
+footer > div.footer-3 > div.content:hover {
+	cursor: pointer;
+}
+footer > div.footer-3 > div.content > p {
+	font-family: ByekanWeb;
+}
+footer > div.footer-3 > div.content > img {
+	width: 72px;
+}
+footer > div.footer-4 {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25% 25%;
+	text-align: right;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+footer > div.footer-4 > div.content {
+	display: flex;
+	flex-direction: column;
+}
+footer > div.footer-4 > div.content > p {
+	font-family: ByekanWeb;
+	font-weight: bolder;
+	font-size: 19px;
+	color: #2b2b2b;
+	padding: 15px;
+}
+footer > div.footer-4 > div.content > a {
+	font-family: ByekanWeb;
+	text-decoration: none;
+	font-size: 17px;
+	color: #2b2b2b;
+	padding: 10px;
+}
+footer > div.footer-4 > div.content > div.social-media {
+	display: flex;
+	flex-direction: row;
+	column-gap: 50px;
+	margin-bottom: 32px;
+}
+footer > div.footer-4 > div.content > div.social-media > i {
+	color: #9e9fb1;
+	font-size: 40px;
+}
+footer > div.footer-4 > div.content > div.input-form {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+footer > div.footer-4 > div.content > div.input-form > input {
+	width: 100%;
+	height: 55px;
+	background-color: #f1f2f4;
+	font-family: ByekanWeb;
+	font-size: 18px;
+	border: none;
+	border-radius: 10px;
+	margin: 0px 0px 0px 10px;
+	padding: 20px;
+}
+footer > div.footer-4 > div.content > div.input-form > button {
+	background-color: #e0e0e6;
+	font-family: ByekanWeb;
+	color: white;
+	font-size: 18px;
+	height: 55px;
+	width: 75px;
+	border: none;
+	border-radius: 10px;
+}
+footer > div.footer-5 {
+	display: flex;
+	column-gap: 15px;
+	background-color: #3c4b6d;
+	border-radius: 15px;
+	margin-bottom: 100px;
+	padding: 15px 25px;
+	align-items: center;
+}
+footer > div.footer-5 > img.logo {
+	height: 64px;
+}
+footer > div.footer-5 > p {
+	color: white;
+	font-family: ByekanWeb;
+	font-size: 25px;
+}
+footer > div.footer-5 > img.push-left {
+	margin-right: auto;
+}
+
+footer > div.footer-6 {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	border-top: #e0e0e6 solid 1px;
+	border-bottom: #e0e0e6 solid 1px;
+	margin-bottom: 10px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+footer > div.footer-6 > div.content {
+	text-align: start;
+}
+footer > div.footer-6 > div.content > p.header {
+	font-family: ByekanWeb;
+	font-size: 18px;
+	font-weight: bolder;
+	margin-bottom: 18px;
+}
+footer > div.footer-6 > div.content > p.text {
+	font-family: ByekanWeb;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 28px;
+	color: #a9aaba;
+	margin-bottom: 18px;
+}
+footer > div.footer-6 > div.content > a {
+	font-family: ByekanWeb;
+	font-size: 15px;
+	font-weight: bolder;
+	line-height: 28px;
+	color: #a9aaba;
+	margin-bottom: 18px;
+	text-decoration: none;
+}
+footer > div.footer-6 > div.logo {
+	text-align: end;
+}
+footer > div.footer-6 > div.logo > img {
+	width: 128px;
+	padding: 15px;
+	border: 1px solid lightgray;
+	border-radius: 10px;
+	margin: 4px;
+}
+footer > div.footer-7 {
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+footer > div.footer-7 > p {
+	font-family: ByekanWeb;
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 28px;
+	color: #a0a1af;
+	margin-bottom: 18px;
+}
+
+div.footer-end {
+	width: 100%;
+	background-color: #f1f2f4;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+div.footer-end > div.first-row {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto auto ;
+	border-bottom: lightgray solid 1px;
+}
+
+div.footer-end > div.first-row > img {
+	width: 100%;
+	padding: 20px 30px 20px 30px;
+	border-left: lightgray solid 1px;
+}
+
+div.footer-end > div.second-row {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto auto auto;
+
+}
+div.footer-end > div.second-row > img {
+	width: 100%;
+	padding: 20px 30px 20px 30px;
+	border-left: lightgray solid 1px;
+}

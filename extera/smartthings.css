@@ -1,0 +1,82 @@
+div.smartThings {
+  width: 80%;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 25px;
+  background-color: white;
+  border: 0.5px lightgrey solid;
+}
+
+div.smartThings > div.mainSmartThings {
+  display: block ruby;
+}
+div.smartThings > div.mainSmartThings > div.partOfSmart {
+  width: auto;
+}
+
+div.smartThings > div.mainSmartThings > div.partOfSmart > div.txtTop {
+  font-family: ByekanWeb;
+  padding: 15px 20px 0px 0px;
+}
+div.smartThings > div.mainSmartThings > div.partOfSmart > div.txtTop > h4 {
+  color: #080a38;
+  font-size: medium;
+}
+div.smartThings > div.mainSmartThings > div.partOfSmart > div.txtTop > p {
+  color: #767790;
+  font-size: 12px;
+  padding-top: 10px;
+}
+div.smartThings > div.mainSmartThings > div.partOfSmart > div.txtbottom > a {
+  font-family: ByekanBold;
+  font-size: 12px;
+  color: #19bfd3;
+}
+
+div.smartThings > div.mainSmartThings > div.partOfSmart > div.txtbottom {
+  text-align: center;
+}
+
+div.smartThings > div.mainSmartThings > div.partOfSmart {
+  display: block;
+}
+
+div.smartThings > div.mainSmartThings > div.partOfSmart > div.picSmart {
+  margin: 20px;
+  border-left: lightgray 1px solid;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+
+div.smartThings
+  > div.mainSmartThings
+  > div.partOfSmart
+  > div.picSmart
+  > div.picTop {
+  margin-bottom: 20px;
+  border-bottom: lightgray 1px solid;
+}
+div.smartThings
+  > div.mainSmartThings
+  > div.partOfSmart
+  > div.picSmart
+  > div.picbottom {
+}
+div.smartThings
+  > div.mainSmartThings
+  > div.partOfSmart
+  > div.picSmart
+  > div.picTop
+  > img {
+  width: 130px;
+}
+
+div.smartThings
+  > div.mainSmartThings
+  > div.partOfSmart
+  > div.picSmart
+  > div.picbottom
+  > img {
+  width: 130px;
+}

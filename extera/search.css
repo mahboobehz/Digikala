@@ -1,0 +1,54 @@
+header > div.search {
+	display: grid;
+	grid-template-columns: 8% 41% 41%;
+	align-items: center;
+	width: 100%;
+	padding: 12px 28px 12px 28px;
+}
+header > div.search > img {
+	width: 138px;
+}
+header > div.search > div.input-text-body {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin: 0px 24px 0px 0px;
+	padding: 16px 16px;
+	background-color: whitesmoke;
+	border-radius: 8px;
+}
+header > div.search > div.input-text-body > i {
+	padding: 0px 10px 0px 10px;
+	font-size: 16px;
+	color: gray;
+	text-align: right;
+}
+header > div.search > div.input-text-body > div.input-text {
+	width: 100%;
+	color: gray;
+	font-family: ByekanWeb;
+}
+header > div.search > div.login-register {
+	text-align: end;
+	align-items: center;
+	justify-items: center;
+}
+header > div.search > div.login-register > i {
+	font-size: 19px;
+}
+
+header > div.search > div.login-register > span {
+	padding-left: 10px;
+	padding-right: 10px;
+	color: gray;
+}
+header > div.search > div.login-register > a {
+	padding: 10px;
+	border: none;
+	color: white;
+    border: 1px solid lightgray;
+    color: black;
+	font-family: ByekanWeb;
+    border-radius: 10px;
+    text-decoration: none;
+}

@@ -1,0 +1,17 @@
+div.sale {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25% ;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+}
+div.sale > div.picSale {
+  width: 25%;
+  margin: 10px;
+}
+
+div.sale > div.picSale > img {
+  border-radius: 25px;
+  width: 375px;
+}

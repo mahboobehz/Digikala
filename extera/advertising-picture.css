@@ -1,0 +1,10 @@
+div.advertising-picture {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	border-radius: 25px;
+	margin-bottom: 10px;
+}
+div.advertising-picture>img>{
+	border-radius: 25px;
+}

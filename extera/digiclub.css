@@ -1,0 +1,49 @@
+div.digi-club {
+	display: grid;
+	gap: 0px 5px;
+	padding: 15px;
+	padding-right: 60px;
+	width: 80%;
+	grid-template-columns: 30% 70%;
+	margin: 0 auto;
+	border-radius: 15px;
+	background-image: linear-gradient(to right, #35a6c8, #007295);
+	border: 0.5px lightgrey solid;
+	align-items: center;
+}
+div.digi-club > div.sub-digiclub {
+	display: grid;
+	gap: 0px 5px;
+	grid-template-columns: 33% 33% 33%;
+	width: 100%;
+}
+div.digi-club > div.sub-digiclub > div.content {
+	display: flex;
+	overflow: hidden;
+	background-color: white;
+	height: 80px;
+}
+div.digi-club > div.sub-digiclub > div.content > div.content-right {
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	font-family: ByekanWeb;
+	width: 100%;
+}
+div.digi-club > div.sub-digiclub > div.content > div.content-right > i {
+	color: #00bfd6;
+	margin: 10px;
+	font-size: medium;
+}
+div.digi-club > div.sub-digiclub > div.content > div.content-left {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 65%;
+}
+div.digi-club > div.sub-digiclub > div.content.first-item {
+	border-radius: 0px 10px 10px 0px;
+}
+div.digi-club > div.sub-digiclub > div.content.last-item {
+	border-radius: 10px 0px 0px 10px;
+}

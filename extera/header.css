@@ -1,0 +1,419 @@
+header {
+  width: 100%;
+}
+
+header > div.background {
+  width: 100%;
+  height: 60px;
+}
+
+header > div.background > img {
+  width: 100%;
+  height: 60px;
+}
+
+header > div.menu {
+  width: 100%;
+  height: 40px;
+  color: #2b2b2b;
+  font-family: ByekanWeb;
+}
+header > div.menu > nav {
+  width: inherit;
+  height: inherit;
+}
+
+header > div.menu > nav > ul.menuItems {
+  width: inherit;
+  height: inherit;
+  padding-right: 20px;
+  list-style-type: none;
+}
+/* منوی li action(همه محصولات) */
+header > div.menu > nav > ul.menuItems > li {
+  list-style-type: none;
+  vertical-align: top;
+  display: inline-block;
+  width: auto;
+  height: inherit;
+  position: relative;
+  color: #2b2b2b;
+  font-family: ByekanWeb;
+}
+
+header > div.menu > nav > ul.menuItems > li > a {
+  width: auto;
+  height: inherit;
+  display: block;
+  padding: 0 10px;
+  line-height: 40px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #2b2b2b;
+  font-size: 12px;
+  transition: 100ms;
+}
+
+header > div.menu > nav > ul.menuItems > li > a.category {
+  width: 150px;
+  height: inherit;
+  display: block;
+  padding: 0 10px;
+  line-height: 40px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #2b2b2b;
+  font-size: 14px;
+  transition: 100ms;
+}
+
+header > div.menu > nav > ul.menuItems > li > a:hover {
+  color: gray;
+}
+
+header > div.menu > nav > ul.menuItems > li > a.category {
+  font-family: ByekanBold;
+  color: #2b2b2b;
+  font-size: 14px;
+}
+
+/* 
+ستون دسته بندی کالا */
+div.menu > nav > ul.menuItems > li.action > ul.subMenu {
+  width: 150px;
+  list-style: none;
+  z-index: 100;
+  display: none;
+  font-family: ByekanWeb;
+  color: #2b2b2b;
+  position: absolute;
+}
+
+
+div.menu > nav > ul > li > ul > li {
+  height: 40px;
+  width: 200px;
+}
+div.menu > nav > ul.menuItems > li.action > ul > li > a {
+  display: block;
+  height: inherit;
+  width: 200px;
+  color: #2b2b2b;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 40px;
+  transition: 300ms;
+}
+div.menu > nav > ul > li > ul > li > a > span {
+  padding-right: 10px;
+}
+
+div.menu > nav > ul.menuItems > li.action > ul.subMenu > li > a:hover {
+  background-color: lightgray;
+}
+
+div.menu > nav > ul.menuItems > li.action > ul.subMenu {
+  width: 100%;
+  height: 100%;
+}
+
+div.menu > nav > ul.menuItems > li.action > ul.subMenu > li {
+  background-color: #f2f2f2;
+  box-shadow: 0px 10px 10px #2b2b2b;
+}
+
+div.menu > nav > ul.menuItems > li.action:hover > ul.subMenu {
+  display: block;
+}
+
+div.menu > nav > ul.menuItems > li.action > ul.subMenu > li > ul {
+  list-style: none;
+  width: auto;
+  top: 0;
+  z-index: 100;
+  display: none;
+}
+
+/* div.menu
+  > nav
+  > ul.menuItems
+  > li.action
+  > ul.subMenu
+  > li.mobile
+  > a.mobileText:hover {
+  background-color: lime;
+}  */
+
+/* دسته بندی موبایل */
+
+div.menu
+  > nav
+  > ul.menuItems
+  > li.action
+  > ul.subMenu
+  > li.mobile
+  > div.menuMobile {
+  width: 1400px;
+  background-color: #f2f2f2;
+  position: relative;
+  top: -40px;
+  left: -201px;
+  display: none;
+}
+
+
+div.menu
+  > nav
+  > ul.menuItems
+  > li.action
+  > ul.subMenu
+  > li.mobile:hover
+  > div.menuMobile {
+  display: block;
+}
+div.menu
+  > nav
+  > ul.menuItems
+  > li.action
+  > ul.subMenu
+  > li.mobile
+  > div.menuMobile
+  > div {
+  display: inline-block;
+  width: 300px;
+  background-color: #f2f2f2;
+}
+
+div.menu
+  > nav
+  > ul.menuItems
+  > li.action
+  > ul.subMenu
+  > li.mobile
+  > div.menuMobile
+  > div
+  > ul
+  > li {
+  list-style: none;
+  font-size: 12px;
+}
+
+div.menu
+  > nav
+  > ul.menuItems
+  > li.action
+  > ul.subMenu
+  > li.mobile
+  > div.menuMobile
+  > div
+  > div.allOfProducts
+  > a {
+  height: inherit;
+  width: 200px;
+  color: #2b2b2b;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: ByekanWeb;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 40px;
+  padding-right: 15px;
+  transition: 300ms;
+}
+
+/* برندهای مختلف گوشی */
+
+div.menu
+  > nav
+  > ul.menuItems
+  > li.action
+  > ul.subMenu
+  > li.mobile
+  > div.menuMobile
+  > div
+  > div.cellphone
+  > a {
+  font-family: ByekanBold;
+  font-size: 15px;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding-right: 15px;
+  color: #2b2b2b;
+}
+
+/* گوشی */
+
+div.menu
+  > nav
+  > ul.menuItems
+  > li.action
+  > ul.subMenu
+  > li.mobile
+  > div.menuMobile
+  > div
+  > div.cellphoneContent
+  > a {
+  display: block;
+  font-family: ByekanWeb;
+  font-size: 12px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #2b2b2b;
+  line-height: 40px;
+  padding-right: 15px;
+}
+
+div.menu
+  > nav
+  > ul.menuItems
+  > li.action
+  > ul.subMenu
+  > li.mobile
+  > div.menuMobile
+  > div
+  > div.cellphone
+  > a {
+  font-family: ByekanBold;
+  font-size: 15px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #2b2b2b;
+  padding-right: 15px;
+}
+
+/* 
+دسته بندی کالای دیجیتال */
+
+div.menu
+  > nav
+  > ul.menuItems
+  > li.action
+  > ul.subMenu
+  > li.DigitalProduct
+  > div.menuDigital {
+  width: 1400px;
+  background-color: #f2f2f2;
+  position: relative;
+  top: -80px;
+  left: -201px;
+  display: none;
+}
+
+div.menu
+  > nav
+  > ul.menuItems
+  > li.action
+  > ul.subMenu
+  > li.DigitalProduct:hover
+  > div.menuDigital {
+  display: block;
+}
+
+div.menu
+  > nav
+  > ul.menuItems
+  > li.action
+  > ul.subMenu
+  > li.DigitalProduct
+  > div.menuDigital
+  > div {
+  display: inline-block;
+  width: 300px;
+  background-color: #f2f2f2;
+}
+div.menu
+  > nav
+  > ul.menuItems
+  > li.action
+  > ul.subMenu
+  > li.DigitalProduct
+  > div.menuDigital
+  > div
+  > ul
+  > li {
+  list-style: none;
+  font-size: 12px;
+}
+div.menu
+  > nav
+  > ul.menuItems
+  > li.action
+  > ul.subMenu
+  > li.DigitalProduct
+  > div.menuDigital
+  > div
+  > div.allOfDigitalProducts
+  > a {
+  height: inherit;
+  width: 200px;
+  color: #2b2b2b;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: ByekanWeb;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 40px;
+  padding-right: 15px;
+  transition: 300ms;
+}
+
+/* لوازم جانبی گوشی */
+div.menu
+  > nav
+  > ul.menuItems
+  > li.action
+  > ul.subMenu
+  > li.DigitalProduct
+  > div.menuDigital
+  > div
+  > div.accessories
+  > a {
+  font-family: ByekanBold;
+  font-size: 15px;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding-right: 15px;
+  color: #2b2b2b;
+
+}
+
+/* متن لوازم جانبی گوشی */
+
+div.menu
+  > nav
+  > ul.menuItems
+  > li.action
+  > ul.subMenu
+  > li.DigitalProduct
+  > div.menuDigital
+  > div
+  > div.accessoriesContent
+  > a {
+  display: block;
+  font-family: ByekanWeb;
+  font-size: 12px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #2b2b2b;
+  line-height: 40px;
+  padding-right: 15px;
+}
+
+div.menu
+  > nav
+  > ul.menuItems
+  > li.action
+  > ul.subMenu
+  > li.DigitalProduct
+  > div.menuDigital
+  > div
+  > div.accessories
+  > a {
+  font-family: ByekanBold;
+  font-size: 15px;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #2b2b2b;
+  padding-right: 15px;
+}

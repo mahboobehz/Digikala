@@ -1,0 +1,54 @@
+div.supermarket {
+	display: flex;
+	align-items: center;
+	justify-content: right;
+	width: 80%;
+	padding: 20px 45px 20px 25px;
+	margin: auto;
+	background-color: #eef1f0;
+	background-image: url("/images/superMarket/freshPattern.svg");
+	background-position: left;
+	background-repeat: no-repeat;
+	border-radius: 15px;
+}
+div.supermarket > img.logo {
+	padding-right: 20px;
+}
+div.supermarket > a.discount {
+	background-color: #39ae00;
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	border-radius: 25px;
+	margin-right: 20px;
+    margin-left: 250px;
+	font-family: ByekanWeb;
+	font-size: 14px;
+	font-weight: bold;
+}
+div.supermarket > div.goods {
+	background-color: white;
+    border-radius: 100%;
+    margin: 0px 5px 0px 5px;
+    object-fit: contain;
+}
+div.supermarket > div.goods > img {
+    border-radius: 100%;
+    overflow: hidden;
+    height: 70px;
+}
+div.supermarket > div.goods > i {
+    z-index: 1;
+    background-color: red;
+}
+div.supermarket > a.btn {
+	background-color: white;
+	text-decoration: none;
+	color: #39ae00;
+	padding: 18px;
+	border-radius: 25px;
+	margin-right: 20px;
+	font-family: ByekanWeb;
+	font-size: 14px;
+	font-weight: bold;
+}

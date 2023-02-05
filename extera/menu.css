@@ -1,0 +1,186 @@
+div.menu{
+    width: 100%;
+    height: 40px;
+  
+}
+
+div.menu > nav{
+    width: inherit;
+    height: inherit;
+    
+}
+
+div.menu > nav > ul{
+    width: inherit;
+    height: inherit;
+    list-style: none;
+    border-bottom: 0.5px solid lightgray; 
+   
+}
+
+div.menu > nav > ul > li {
+    width: auto;
+    height: inherit;
+    display: inline-block;
+   
+    position: relative;
+    border-bottom: 1px solid lightgrey;
+    z-index: 999999;
+}
+
+div.menu > nav > ul > li > a {
+    display: block;
+    width: inherit;
+    height: inherit;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 14px;
+    color: #424366;
+    padding: 0px 15px;
+    transition: 300ms;
+}
+
+div.menu > nav > ul > li > a:hover{
+    border-bottom: 3px solid red;
+
+}
+
+div.menu > nav > ul > li.things > a {
+    display: block;
+    width: inherit;
+    height: inherit;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+    font-size: 12px;
+    color:  #9495A9;
+    padding: 0px 15px;
+    transition: 300ms;
+}
+
+div.menu > nav > ul > li > div{
+    width:calc(100vw - 40px);
+    
+    height: 520px;
+    position: absolute;
+    right: 20px;
+    box-shadow: 5px 5px 5px lightgrey;
+    border-radius: 0px 0px 10px 10px;
+    display: none;
+    background-color: white;
+  
+}
+
+
+div.menu > nav > ul > li:hover > div{
+    display: block;
+  
+
+}
+
+div.menu > nav > ul > li > div > div{
+    width: 12%;
+    height: inherit;
+    box-shadow: 0 0 2px #2b2b2b;
+  
+}
+
+div.menu > nav > ul > li > div > div > div{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 0px 48px 0px ;
+}
+
+div.menu > nav > ul > li > div > div > div > a{
+    display: block;
+    width: 100%;
+    height: inherit;
+    transition: 300ms;
+    text-decoration: none;
+    color: #48496B;
+    font-size: 12px;
+}
+
+div.menu > nav > ul > li > div > div > div > a > span{
+    font-size: 15px;
+    padding: 0px 10px 0px 10px;
+    font-weight: 400;
+}
+
+div.menu > nav > ul > li > div > div > div > a:hover {
+    background-color: #F8F8F9;
+    color: #F16E7F;
+}
+div.menu > nav > ul > li > div > div > div > div.subMenu{
+    width: 88%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: 0;
+    left: 0;
+}
+
+div.menu > nav > ul > li > div > div > div:hover > div.subMenu{
+    display: block;
+
+}
+
+
+div.menu > nav > ul > li > div > div > div:hover > div.subMenu > div{
+    display: inline-block;
+    width: 19%;
+    height: inherit;
+    line-height: 27px;
+    background-color: white;
+    vertical-align: top;
+}
+
+div.menu > nav > ul > li > div > div > div > div.subMenu > div > ul{
+    width: 88%;
+    height: 100%;
+    margin-right: 20px;
+    list-style: none;
+
+}
+
+div.menu > nav > ul > li > div > div > div > div.subMenu > div > ul> div.allproduct {
+    width: 88%;
+    height:8%;
+    margin-top: 10px;
+
+}
+
+div.menu > nav > ul > li > div > div > div > div.subMenu > div > ul> div.allproduct >li > a{
+    color: #494A6C;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 10px;
+
+}
+
+div.menu > nav > ul > li > div > div > div > div.subMenu > div > ul >li.brands > a{
+ color: #3A3B60;
+ text-decoration: none;
+ font-size: 14px;
+ font-weight: 900;
+
+}
+div.menu > nav > ul > li > div > div > div > div.subMenu > div > ul >li.brands > a:hover{
+    color:#F16E7F
+}
+
+div.menu > nav > ul > li > div > div > div > div.subMenu > div > ul >div.content > li >a {
+    color: #66676e;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+div.menu > nav > ul > li > div > div > div > div.subMenu > div > ul >div.content > li >a:hover{
+    color:#F16E7F
+
+}

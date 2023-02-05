@@ -1,0 +1,66 @@
+div.selected {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	border-radius: 25px;
+	border: 1px solid lightgrey;
+}
+div.selected > div.header {
+	text-align: center;
+	font-family: ByekanWeb;
+	padding: 20px 20px;
+	color: #080a38;
+	font-size: 22px;
+	font-weight: bold;
+}
+div.selected > div.header > i {
+	margin: 0px 20px 0px 20px;
+	color: #ef4056;
+}
+div.selected > div.selected-contents {
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 15px;
+	width: 100%;
+}
+div.selected > div.selected-contents > div.selected-content {
+	border: 0.5px solid lightgray;
+	border-top: none;
+	padding: 10px;
+	width: 100%;
+}
+div.selected > div.selected-contents > div.selected-content > div.picture {
+	width: 100%;
+	text-align: center;
+}
+div.selected > div.selected-contents > div.selected-content > div.picture > img {
+	width: 150px;
+	margin: auto;
+}
+div.selected > div.selected-contents > div.selected-content > div.picture > i {
+	color: #ef4056;
+	font-size: 30px;
+  margin-bottom: 20px;
+}
+
+div.selected > div.selected-contents > div.selected-content > div.details {
+  display: flex;
+}
+div.selected > div.selected-contents > div.selected-content > div.details > span {
+  
+  text-align: right;
+  background-color: #ef4056;
+  color: white;
+  padding: 3px 10px 3px 10px;
+  border-radius: 15px;
+  font-family: ByekanWeb;
+  font-weight: bolder;
+}
+div.selected > div.selected-contents > div.selected-content > div.details > p {
+  flex:50%;
+  text-align: left;
+  font-family: ByekanWeb;
+  font-weight: bolder;
+}

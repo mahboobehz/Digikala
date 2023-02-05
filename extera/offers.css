@@ -1,0 +1,68 @@
+div.offer {
+  width: 100%;
+  padding: 30px;
+}
+div.offer > div.txt {
+  font-family: ByekanWeb;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #080a38;
+}
+div.offer > div.mainOffer {
+  width: 82%;
+  margin: 0 auto;
+  border-radius: 25px;
+  border: 1px lightgrey solid;
+}
+div.offer > div.mainOffer > div.top {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+}
+div.offer > div.mainOffer > div.bottom {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  /*border: 1px solid lightgrey;*/
+}
+div.offer > div.mainOffer > div.top > div.pic {
+  width: 14%;
+  height: inherit;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: -3px;
+  border-bottom: 1px solid lightgrey;
+  border-right: 1px solid lightgray;
+}
+div.offer > div.mainOffer > div.bottom > div.pic {
+  width: 14%;
+  height: inherit;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: -3px;
+  border-bottom: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+}
+div.offer > div.mainOffer > div.top > div.pic > div.circl,
+div.offer > div.mainOffer > div.bottom > div.pic > div.circl {
+  width: 50%;
+  height: 60%;
+  background-color: lightgrey;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5px;
+  border-radius: 50%;
+}
+div.offer > div.mainOffer > div.top > div.pic > div.circl > img,
+div.offer > div.mainOffer > div.bottom > div.pic > div.circl > img {
+  width: 60%;
+  margin-top: 14px;
+  vertical-align: top;
+}
+div.offer > div.mainOffer > div.top > div.pic > p,
+div.offer > div.mainOffer > div.bottom > div.pic > p {
+  font-family: ByekanWeb;
+  font-size: 12px;
+}

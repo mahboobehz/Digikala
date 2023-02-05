@@ -1,0 +1,30 @@
+div.discount {
+    width: 80%;
+  
+    display: block ruby;
+    text-align: center;
+    margin: auto;
+  }
+  div.discount > div.partOne {
+    width: 50%;
+    margin: 3px;
+  }
+  
+  div.discount > div.partOne > img {
+    width: 750px;
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+  }
+  div.discount > div.partTwo {
+    width: 50%;
+    margin: 3px;
+  }
+  
+  div.discount > div.partTwo > img {
+    width: 750px;
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+  }
+  
+
+

@@ -1,0 +1,105 @@
+.swiper.amazing {
+	width: 100%;
+	height: 100%;
+	background-color: #ef394e !important;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-items: center;
+	padding-left: 5px;
+}
+.swiper.swiper-amazing {
+	border-radius: 25px;
+	width: 80%;
+	height: 320px;
+}
+.swiper-slide.amazing-first {
+	display: grid;
+	grid-template-rows: 30% 40% 30%;
+	background-color: #ef394e !important;
+}
+.swiper-slide.amazing-first > img.first {
+	height: 156px;
+	width: 124px;
+	object-fit: contain;
+}
+.swiper-slide.amazing-first > img.second {
+	height: 150px;
+	object-fit: contain;
+}
+.swiper-slide.amazing-first > a {
+	text-decoration: none;
+	font-family: ByekanWeb;
+	font-weight: bolder;
+	font-size: 15px;
+	color: white;
+}
+.swiper-slide.amazing {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 18px;
+	background: #ef394e;
+	height: 110px !important;
+	/* Center slide text vertically */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.swiper-slide.amazing > div.amazing-content {
+	display: grid;
+	grid-template-rows: 80% 10% 17%;
+	padding: 0px;
+	padding-bottom: 30px;
+	margin-right: 3px;
+	justify-items: center;
+	align-items: center;
+	margin-top: 109px;
+	background-color: white;
+	width: 100%;
+	height: 270px;
+}
+.swiper-slide.amazing > div.amazing-content > div.amazing-picture {
+}
+.swiper-slide.amazing > div.amazing-content > div.amazing-price {
+	display: grid;
+	width: 100%;
+	grid-template-columns: auto auto;
+	font-family: ByekanWeb;
+	font-weight: bolder;
+	font-size: 12px;
+}
+.swiper-slide.amazing > div.amazing-content > div.amazing-price > span {
+	background-color: #ef4056;
+	color: white;
+	align-items: center;
+	padding: 3px 10px 3px 10px;
+	margin: auto;
+	border-radius: 15px;
+	font-family: ByekanWeb;
+	font-weight: bolder;
+	font-size: 12px;
+	width: 60px;
+}
+.swiper-slide.amazing > div.amazing-content > div.amazing-price > p {
+	font-family: ByekanWeb;
+	font-weight: bolder;
+  font-size: 16px;
+}
+.swiper-slide.amazing > div.amazing-content > div.amazing-discount > p {
+	text-decoration: line-through;
+  font-family: ByekanWeb;
+	font-weight: bolder;
+  font-size: 11px;
+  color: lightgray;
+float: left;
+}

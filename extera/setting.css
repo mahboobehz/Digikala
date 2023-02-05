@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: ByekanBold;
+	src: url("../fonts/iranyekanwebextrabold.9346e9a2.eot");
+	src: url("../fonts/iranyekanwebextrabold.9346e9a2.ttf");
+	src: url("../fonts/iranyekanwebextrabold.9346e9a2.woff");
+	src: url("../fonts/iranyekanwebextrabold.9346e9a2.woff2");
+}
+
+@font-face {
+	font-family: ByekanWeb;
+	src: url("../fonts/iranyekanwebregular.e31c09af.eot");
+	src: url("../fonts/iranyekanwebregular.e31c09af\ \(1\).ttf");
+	src: url("../fonts/iranyekanwebregular.e31c09af\ \(1\).woff");
+	src: url("../fonts/iranyekanwebregular.e31c09af\ \(1\).woff2");
+}
+div.container {
+	width: 100%;
+}

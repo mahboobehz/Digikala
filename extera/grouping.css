@@ -1,0 +1,33 @@
+div.grouping {
+    width: 100%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+div.grouping > div.lineOne > div.txt {
+  font-family: ByekanWeb;
+  font-size: 20px;
+}
+
+div.grouping > div.lineTwo , div.grouping > div.lineTree{
+    width: 80%;
+    height: 60%;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5px;
+}
+
+div.grouping > div.lineTwo > div.picLineTwo , div.grouping > div.lineTree > div.picLineTree{
+    width: 16%;
+    height: inherit;
+    display: inline-block;
+    font-family: ByekanWeb;
+    font-size: small;
+    font-weight: bolder;
+   
+}
+div.grouping > div.lineTwo > div.picLineTwo > img , div.grouping > div.lineTree > div.picLineTree > img{
+    width: 70%;
+    margin-top: 20px;
+}
